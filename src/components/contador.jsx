@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import style from "../styles/styles.module.css";
 
 export function Contador() {
