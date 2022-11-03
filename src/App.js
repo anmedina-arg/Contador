@@ -1,10 +1,12 @@
 import React from "react";
-import "./App.css";
 import { Contador } from "./components/contador";
+import { Titulo } from "./components/titulo.jsx";
+import styles from "../src/styles/app.module.css";
 
 function App() {
   return (
-    <div>
+    <div className={styles.app_container}>
+      <Titulo />
       <Contador />
     </div>
   );

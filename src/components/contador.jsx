@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "../styles/styles.module.css";
+import style from "../styles/contador.module.css";
 
 export function Contador() {
   let [contador, setContador] = useState(0);
@@ -15,9 +15,9 @@ export function Contador() {
   }
 
   return (
-    <div className={style.conteiner}>
+    <div className={style.container}>
       <div className={style.element}>
-        <h1>{contador}</h1>
+        <h1 className={style.h1}>{contador}</h1>
       </div>
       <div className={style.element}>
         <button onClick={add} className={style.btn}>
