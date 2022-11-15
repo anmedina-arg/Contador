@@ -1,5 +1,5 @@
 import React from "react";
 
 export function Titulo() {
-  return <h1>Soy el titulo del contador</h1>;
+  return <h1>Soy el título del contador</h1>;
 }

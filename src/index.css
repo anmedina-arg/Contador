@@ -1,7 +1,7 @@
 body {
   --a: #1d2b64;
   --b: #f8cdda;
-  background: linear-gradient(to right, var(--a), var(--b));
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
